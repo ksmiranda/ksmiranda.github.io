@@ -1,0 +1,99 @@
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Karen's professional webpage</title>
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="header">
+	<h1><a href="index.html">Karen Miranda</a></h1>
+	<h3>Professional webpage</h3>
+</div>
+<div id="menu">
+	<ul> 
+		<li class="first"><a href="#" accesskey="1" title="">Home</a></li> 
+		<li><a href="these.htm" accesskey="2" title="">Research</a></li> 
+		<li><a href="publications.html" accesskey="3" title="">Publications</a></li>
+                <li><a href="links.htm" accesskey="4" title="">Links</a></li> 
+		<li><a href="contact.htm" accesskey="5" title="">Contact</a></li>  
+	</ul> 
+</div>
+<hr />
+<div id="latest-post" class="post">
+	<p class="byline"><span>Last updated: Jun 13, 2017 <a href="#">Karen</a></span></p>
+	<h1 class="title"><a href="#">Masters Thesis Project</a></h1>
+	<div class="entry"></div>
+	
+	   <P>I got my masters degree in Sciences and 
+                    Information Technologies from UAM on
+                    January 29th, 2009. Title: <img src='images/mx.png' alt='Spanish' title='mx' /> <a href="docs/these.pdf" class="permalink" target="_blank">Evaluation of playout delay control algorithms for VoIP</a>.
+     </P> 
+ <br>
+       <P>Jury:<br>
+		   
+		   * Prof. <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/a/Aquino=Santos:Raul.html" target="_blank">Ra&uacute;l Aquino Santos</a>, <a href="http://telematicanet.ucol.mx" target="_blank">Universidad de Colima</a><br>
+		   * Prof. <a href="http://www.itam.mx/es/facultad/profesoresDetalles.php?id_profesor=202" target="_blank">Marcelo Mej&iacute;a Olvera</a>, <a href="http://www.itam.mx" target="_blank">ITAM</a><br>
+		   * Prof. <a href="http://die.izt.uam.mx/index.php/dr-fausto-marcos-casco-sanchez/" target="_blank">Fausto Casco S&aacute;nchez</a>, <a href="http://www.iztapalapa.uam.mx/">UAM-Iztapalapa</a><br>
+		   * Prof. <a href="http://victor.ramos.online.fr" target="_blank">V&iacute;ctor Ramos Ramos</a> (thesis advisor), <a href="http://www.iztapalapa.uam.mx/">UAM-Iztapalapa</a><br>
+		   
+       </P>
+	<div style="clear: both; height: 40px;">&nbsp;</div> 
+</div> 
+
+<div id="recent-posts"> 
+	<h2>Abstract</h2> 
+<div style="text-align: justify;">
+	<P>My masters thesis project was about <STRONG>Playout delay control algorithms for Voice over IP (VoIP)</STRONG>. 
+	   Interactive applications on the Internet are extensively used nowadays. P2P applications like Skype, VoIPBuster have
+	   implemented very successful VoIP systems. Several instant messaging applications like MSN Messenger, Yahoo Messenger,
+	   AIM Messenger among others also offer VoIP services which are free for PC-to-PC users. Pionnering research applications
+	   like NeVoT (by Henning Schulzrinne), FreePhone (by Bolot and Andr&eacute;s Vega Garc&iacute;a) and Rat 
+	   (by the Mice Project) invested lots of effort so as to optimize the transmission of real-time audio packets on the Internet.
+	</P> 
+	
+	<P>Currently, the Internet still operates in a best-effort basis. Routers in the net have buffers implementing FIFO policies,
+	which means that the first packet entering the buffer is the first packet to be serviced. So, there is no priority among
+	packets. This has the advantage of simplicity, mainly when servicing packets, but has the disadvantage that all packets
+	get the same priority: a voice packet will have to wait in the buffer like any other packet, even if the delay constraints
+	for real-time applications are hard. This best-effort mechanism on the Internet causes three main phenomena, which are
+	harmful for real-time applications like VoIP: delay, packet losses and jitter.</P> 
+	
+	<P>In this masters thesis we concentrate on Playout Delay Control Algorithms for VoIP. A playout delay control algorithm
+	implements a buffer on the receiver side so as to store the received packets. Then, the algorithm computes a deadline
+	for each packet. If a packet has been lost in the network or has arrived after its scheduled deadline, the packet is 
+	considered lost at the receiver. On one hand, if the deadline is long, the playout algorithm gives more chance to arrive 
+	to packets having suffered from a high level of jitter, but at the expense of loosing interaction during the VoIP call.
+    On the other hand, if the computed deadline is short the playout algorithm is more aggressive but with the risk of
+    loosing more packets even if they arrived at the receiver side, but having arrived after their scheduled deadline.
+	So, a playout algorithm trades-off delay and loss so as to optimize the interactivity of the VoIP call.
+	</P> 
+	
+	<P> 
+	In this masters thesis, we focus on the class of playout algorithms that update the playout delay at the beginning of a
+	talkspurt. We choose to study an NLMS algorithm originally proposed by DeLeon and later modified by Shallwani and to
+	extensively stress the working conditions of both algorithms. The results we got till today indicate from one side
+	that the Shallwani's algorithm may be buggy, and from the other side that delay spike detection may be improved. So,
+	we choose to improve the delay spike detection algorithm proposed by Shallwani and compare the performance of our
+	(so called) NLMS-mod algorithm with the DeLeon's and Shallwani's algorithms. We found that, for most of the cases, with
+	real-audio traces extensively used in other works (kindly offered by Sue Moon) our algorithm performs better than the
+	formers.
+	</P> 
+	
+</div> 
+
+
+
+
+</body>
+</html>
+
+
+
+<hr />
+<div id="footer">
+	<p class="legal">&copy;2007 All Rights Reserved.</p>
+	<p class="credit">Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+</body>
+</html>
+
