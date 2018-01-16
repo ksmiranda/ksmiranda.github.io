@@ -24,7 +24,7 @@ NumberOfImagesToRotate = 3;
  
 // Specify the first and last part of the image tag.
  
-FirstPart = '<img src="images/krn';
+FirstPart = '<img src="images/kren';
 LastPart = '.jpg" alt="me" class="left">';
  
 function printImage() {
