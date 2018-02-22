@@ -140,10 +140,24 @@ target="_blank">ResearchGate</a>
    </td>
    </tr>
   </p>
-<h2><strong>Book chapter</strong></h2>
+<h2><strong>Book chapters</strong></h2>
 
+   <p>
    <tr valign="top">
-   <td align="right" class="bibtexnumber">[<a name="erd:mir13">1</a>]</td>
+   <td align="right" class="bibtexnumber">[<a name="mir18">1</a>]</td>
+   <td class="bibtexitem">
+    <u>Karen Miranda</u>, <a href="https://sites.google.com/view/szapotecas"
+    target="_blank">Sa&uacute;l Zapotecas-Mart&iacute;nez</a>, <a href="http://www.antoniolopez.mx/"
+    target="_blank">Antonio L&oacute;pez-Jaimes</a> and <a href="http://www.abelgarcia.mx/"
+    target="_blank">Abel Garc&iacute;a-N&aacute;jera</a>. <strong>A Comparison of Bio-inspired Approaches
+     for the Cluster-Head Selection problem in WSN</strong>. To appear in <em>WAdvances in 
+     Nature-inspired Computing and Applications</em></a>.
+   </td>
+   </tr>   </p>
+
+   <p>
+   <tr valign="top">
+   <td align="right" class="bibtexnumber">[<a name="erd:mir13">2</a>]</td>
    <td class="bibtexitem">
     Milan Erdelj and <u>Karen Miranda</u>. <strong>Mobile robot deployment 
     in the context of WSN</strong>. In Nathalie Mitton and David Simplot-Ryl,
@@ -154,7 +168,7 @@ target="_blank">ResearchGate</a>
      target="_blank">bib</a>&nbsp;|&nbsp;<a href="http://dx.doi.org/10.1142/9789814551342_0004"
     target="_blank">DOI</a>&nbsp;]
    </td>
-   </tr>
+   </tr>   </p>
 
    
 <h2><strong>Conference papers</strong></h2>
