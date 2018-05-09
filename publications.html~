@@ -199,19 +199,32 @@ target="_blank">ResearchGate</a>
    </tr>   
    </p>
   
+<<<<<<< HEAD
    <p>
    <tr valign="top">
    <td align="right" class="bibtexnumber">[<a name="zap18">3</a>]</td>
+=======
+     <p>
+   <tr valign="top">
+   <td align="right" class="bibtexnumber">[<a name="mir18">1</a>]</td>
+>>>>>>> 8ac202cb43b305d968e3418fedc9e6d230565802
    <td class="bibtexitem">
     <a href="https://sites.google.com/view/szapotecas"
     target="_blank">Sa&uacute;l Zapotecas-Mart&iacute;nez</a>, <a href="http://www.antoniolopez.mx/"
     target="_blank">Antonio L&oacute;pez-Jaimes</a>, <u>Karen Miranda</u>, and <a href="http://www.abelgarcia.mx/"
     target="_blank">Abel Garc&iacute;a-N&aacute;jera</a>. <strong>Decomposition-based Multi-Objective 
+<<<<<<< HEAD
     Evolutionary Optimization for Cluster-Head Selection in WSNs</strong>. To appear in 
     <em> 2018 IEEE Congress on Evolutionary Computation (IEEE CEC 2018)</em></a>.
    </td>
    </tr>   
    </p>
+=======
+    Evolutionary Optimization for Cluster-Head Selection in WSNs</strong>. To appear in <em> 
+    2018 IEEE Congress on Evolutionary Computation (IEEE CEC 2018)</em></a>.
+   </td>
+   </tr>   </p>
+>>>>>>> 8ac202cb43b305d968e3418fedc9e6d230565802
 
    <p>
    <tr valign="top">
